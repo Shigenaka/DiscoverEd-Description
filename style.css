@@ -1,13 +1,13 @@
 body {
     /* background: linear-gradient(#5B8DA3, #76cccc); */
-    background-color: #7280D7;
-    height: 100vh;
+    background: linear-gradient(#7280D7, #DFDFDF);
+    height: 100%;
     font-family: 'Lato', sans-serif;
 
 }
 
 .title, .content {
-    color: white;
+    color: #F5F5F5;
     text-align: center;
     margin-top: 100px;
 }
@@ -22,10 +22,11 @@ body {
 
 
 .content div {
-    border: 1px solid white;
+    border: 1px solid #F5F5F5;
     border-radius: 10px;
     background: rgba(0, 0, 0, .4);
     padding: 20px;
     line-height: 1.5em;
     font-size: 1.4em;
+    margin-bottom: 100px;
 }
