@@ -19,6 +19,13 @@ body {
     font-size: 1.2em;
 }
 
-.about {
-    font-size: 1.5em;
+
+
+.content div {
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .4);
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 1.4em;
 }
