@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(#5B8DA3, #76cccc);
+    /* background: linear-gradient(#5B8DA3, #76cccc); */
+    background-color: #7280D7;
     height: 100vh;
     font-family: 'Lato', sans-serif;
 
