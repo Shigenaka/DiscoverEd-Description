@@ -37,3 +37,16 @@ h1 {
     margin-bottom: 0;
     text-shadow: 5px 5px #2D2D2A;
 }
+
+.screenshots {
+    width: 100%;
+
+}
+
+.screenshots div {
+    width: 80%;
+}
+
+.screenshots img {
+    width: 100%;
+}
