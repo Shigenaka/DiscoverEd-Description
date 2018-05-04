@@ -13,10 +13,9 @@ body {
 }
 
 
-.content div, .about {
-    width: 50%;
+.content div {
+    width: 70%;
     margin: 40px auto;
-    font-size: 1.2em;
 }
 
 
@@ -38,15 +37,18 @@ h1 {
     text-shadow: 5px 5px #2D2D2A;
 }
 
-.screenshots {
-    width: 100%;
-
-}
 
 .screenshots div {
-    width: 80%;
+    width: 40%;
+    margin: 2%;
+    display: inline-block;
 }
 
 .screenshots img {
     width: 100%;
+}
+
+.target > p, .problem > p , .solution > p {
+    padding: 5px 10%;
+
 }
