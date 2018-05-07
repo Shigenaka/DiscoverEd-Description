@@ -1,54 +1,78 @@
 body {
-    /* background: linear-gradient(#5B8DA3, #76cccc); */
-    background: linear-gradient(#7280D7, white);
-    height: 100%;
-    font-family: 'Lato', sans-serif;
-
+  /* background: linear-gradient(#7280D7, white); */
+  background-color: white;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  margin: 0;
 }
 
-.title, .content {
-    color: #F5F5F5;
-    text-align: center;
-    margin-top: 100px;
-}
-
-
-.content div {
-    width: 70%;
-    margin: 40px auto;
-}
-
-
-
-.content div {
-    border: 1px solid #F5F5F5;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, .4);
-    padding: 20px;
-    line-height: 1.5em;
-    font-size: 1.4em;
-    margin-bottom: 100px;
+.title,
+.content {
+  color: black;
+  text-align: center;
+  margin-top: 125px;
 }
 
 h1 {
-    margin-top: 150px;
-    font-size: 4em;
-    margin-bottom: 0;
-    text-shadow: 5px 5px #2D2D2A;
+  font-size: 4em;
+  margin-bottom: 0;
+  color: #7280d7;
 }
 
+.content div {
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 1.4em;
+  padding: 5% 10% 10% 10%;
+}
+
+.problem,
+.contributors {
+  background-color: #7280d7;
+  color: white;
+}
 
 .screenshots div {
-    width: 40%;
-    margin: 2%;
-    display: inline-block;
+  width: 35%;
+  padding: 20px;
+  margin: 40px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
 
 .screenshots img {
-    width: 100%;
+  width: 100%;
 }
 
-.target > p, .problem > p , .solution > p {
-    padding: 5px 10%;
+.screenshots p {
+  font-size: 5vh;
+  margin: 0;
+}
 
+.problem {
+  color: white;
+}
+
+.contributors div {
+  display: inline-block;
+  width: 24%;
+  font-size: .75em;
+  padding: 0;
+  height: 200px;
+  margin-top: 40px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.contributors img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.contributors {
+    padding: 40px 0 0 0;
+}
+
+.contributors p {
+    height: 100px;
 }
