@@ -76,3 +76,8 @@ h1 {
 .contributors p {
     height: 100px;
 }
+
+.contributor a {
+  text-decoration: none;
+  color: white;
+}
